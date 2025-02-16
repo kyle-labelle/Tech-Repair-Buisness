@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kyle's Tech Repairs</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background-container">
+
+        <nav class="navbar navbar-expand-lg" id="custom-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">KYLE’S TECH REPAIR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+                        <li class="nav-item"><a class="nav-link" href="booking.html">Book Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>  
+
+        <section class="info-section">
+            <div class="services-container">
+        
+                <div class="service-box">
+                    <img src="../assets/laptop.jpg" alt="Laptop Repair">
+                    <div class="service-text">
+                        <h3>Laptop Repair</h3>
+                        <p>We offer expert laptop repair services, including screen replacement, battery swaps, keyboard fixes, and more.</p>
+                    </div>
+                    <div class="service-buttons">
+                        <button class="info-btn" data-modal="laptop-modal">What We Offer</button>
+                        <button class="service-btn">Book a Repair</button>
+                    </div>
+                </div>
+        
+                <div class="service-box">
+                    <img src="../assets/pc.jpg" alt="Desktop Repair">
+                    <div class="service-text">
+                        <h3>Desktop Repair</h3>
+                        <p>From power supply replacements to GPU upgrades, our technicians ensure your desktop runs at peak performance.</p>
+                    </div>
+                    <div class="service-buttons">
+                        <button class="info-btn" data-modal="desktop-modal">What We Offer</button>
+                        <button class="service-btn">Book a Repair</button>
+                    </div>
+                </div>
+        
+                <div class="service-box">
+                    <img src="../assets/mobilephone.jpg" alt="Smartphone Repair">
+                    <div class="service-text">
+                        <h3>Smartphone Repair</h3>
+                        <p>Got a cracked screen or battery issue? We specialize in fast and reliable mobile phone repairs.</p>
+                    </div>
+                    <div class="service-buttons">
+                        <button class="info-btn" data-modal="smartphone-modal">What We Offer</button>
+                        <button class="service-btn">Book a Repair</button>
+                    </div>
+                </div>
+        
+                <div class="service-box">
+                    <img src="../assets/software.jpg" alt="Software Repair">
+                    <div class="service-text">
+                        <h3>Software Troubleshooting</h3>
+                        <p>Whether it's virus removal, data recovery, or OS reinstallations, we troubleshoot all software-related issues.</p>
+                    </div>
+                    <div class="service-buttons">
+                        <button class="info-btn" data-modal="software-modal">What We Offer</button>
+                        <button class="service-btn">Book a Repair</button>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        
+    </div>
+
+    <div class="modal-overlay" id="laptop-modal">
+        <div class="modal-content">
+            <span class="close-modal" data-modal="laptop-modal">&times;</span>
+            <h3>Laptop Repair Services</h3>
+            <ul>
+                <li>Screen Replacement</li>
+                <li>Battery Replacement</li>
+                <li>Keyboard & Trackpad Repair</li>
+                <li>Charging Port Repair</li>
+                <li>Motherboard & Cooling Fixes</li>
+                <li>Data Recovery & OS Reinstallation</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="desktop-modal">
+        <div class="modal-content">
+            <span class="close-modal" data-modal="desktop-modal">&times;</span>
+            <h3>Desktop Repair Services</h3>
+            <ul>
+                <li>Power Supply Replacement</li>
+                <li>Custom PC Builds & Upgrades</li>
+                <li>Graphics Card & Cooling System Fixes</li>
+                <li>Data Recovery & Virus Removal</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="smartphone-modal">
+        <div class="modal-content">
+            <span class="close-modal" data-modal="smartphone-modal">&times;</span>
+            <h3>Smartphone Repair Services</h3>
+            <ul>
+                <li>Screen & Battery Replacement</li>
+                <li>Charging Port & Water Damage Repair</li>
+                <li>Camera & Speaker Fixes</li>
+                <li>Software Issues & Data Recovery</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="software-modal">
+        <div class="modal-content">
+            <span class="close-modal" data-modal="software-modal">&times;</span>
+            <h3>Software Troubleshooting</h3>
+            <ul>
+                <li>Operating System Repair</li>
+                <li>Virus & Malware Removal</li>
+                <li>Data Backup & Recovery</li>
+                <li>System Performance Optimization</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/services.js"></script>
+</body>
+</html>
